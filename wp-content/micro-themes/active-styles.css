@@ -1,0 +1,48 @@
+/*  MICROTHEMER STYLES  */
+
+
+/*= Geral ===================== */
+
+/** Geral >> Posts recentes **/
+#posts-recentes {
+	
+}
+
+/** Geral >> Post 1 **/
+#post-1 {
+	background-color: rgb(255, 255, 255) !important;
+	background-image: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255)) !important;
+	opacity: 1 !important;
+}
+
+/** Geral >> Primary **/
+#primary {
+	filter: opacity(1) !important;
+}
+
+/** Geral >> Ast desktop header site header primary section left **/
+#ast-desktop-header .site-header-primary-section-left {
+	filter: drop-shadow(123px) !important;
+}
+
+/** Geral >> Content ast container **/
+#content .ast-container {
+	background-color: rgb(255, 255, 255) !important;
+}
+
+/** Geral >> Entry title link **/
+.entry-title a {
+	color: black !important;
+	opacity: 1 !important;
+}
+
+/** Geral >> Colophon **/
+#colophon {
+	
+}
+
+/** Geral >> Colophon ast builder grid row tablet full **/
+#colophon .ast-builder-grid-row-tablet-full {
+	
+}
+
