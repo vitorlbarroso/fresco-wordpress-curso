@@ -46,3 +46,47 @@
 	
 }
 
+/** Geral >> Post 10 lazyautosizes **/
+#post-10 .lazyautosizes {
+	
+}
+
+/** Geral >> Uagb block 04edde1c uagb column inner wrap **/
+@media screen and (max-width: 600px) {
+	
+}
+
+/** Geral >> Post 10 uagb columns overlay **/
+@media screen and (max-width: 600px) {
+	
+}
+
+/** Geral >> Post 10 uagb columns overlay _2 **/
+#post-10 .uagb-columns__overlay {
+	
+}
+
+/** Geral >> Post 10 uagb columns overlay _3 **/
+@media screen and (max-width: 600px) {
+	
+}
+
+/** Geral >> Post 10 uagb columns overlay _4 **/
+@media screen and (max-width: 600px) {
+	
+}
+
+
+/*( < 980 )*/
+@media (max-width: 979.98px) {
+
+	/*= Geral ===================== */
+
+	/** Geral >> Uagb block 04edde1c uagb column inner wrap _2 **/
+	.uagb-block-04edde1c .uagb-column__inner-wrap {
+	display: none !important;
+}
+
+
+}
+
