@@ -117,6 +117,11 @@
 	
 }
 
+/** Conteúdo >> Correção - Remover fotos dos pratos home dos diposotivos móveis **/
+.photo-food-home .uagb-rm__image img {
+	
+}
+
 
 /*( < 1200 )*/
 @media (max-width: 1199.98px) {
@@ -146,7 +151,20 @@
 	/*= Conteúdo ================= */
 
 	/** Conteúdo >> Correção - Removendo pizza Home em dispositivos móveis **/
-	#post-10 .image-pizza-home .lazyautosizes {
+	#post-10 .image-pizza-home .lazyautosizes img {
+	
+}
+#post-10 .image-pizza-home .lazyautosizes {
+	display: none !important;
+}
+
+	/** Conteúdo >> Correção - Quebra de preço no Cardápio Home **/
+	#post-10 .uagb-rm__text-wrap {
+	
+}
+
+	/** Conteúdo >> Correção - Remover fotos dos pratos home dos diposotivos móveis **/
+	.photo-food-home .uagb-rm__image img {
 	display: none !important;
 }
 
