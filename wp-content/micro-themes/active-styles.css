@@ -5,7 +5,7 @@
 
 /** Geral >> Posts recentes **/
 #posts-recentes {
-	
+	width: 80px !important;
 }
 
 /** Geral >> Post 1 **/
@@ -62,7 +62,7 @@
 }
 
 /** Geral >> Post 10 uagb columns overlay _2 **/
-#post-10 .uagb-columns__overlay {
+@media screen and (max-width: 600px) {
 	
 }
 
@@ -76,6 +76,61 @@
 	
 }
 
+/** Geral >> Uagb block 04edde1c uagb column inner wrap _2 **/
+.uagb-block-04edde1c .uagb-column__inner-wrap {
+	
+}
+
+/** Geral >> Correção **/
+.uagb-block-9b6413f8 .uagb-rm__price {
+	width: 50px !important;
+}
+
+
+/*= Conteúdo ================= */
+
+/** Conteúdo >> Correção - Quebra de preço no Cardápio Home **/
+#post-10 .uagb-rm__text-wrap {
+	
+}
+
+/** Conteúdo >> Correção - Preço Cárdapio Home **/
+.uagb-block-9b6413f8 .uagb-rm__price {
+	width: 80px !important;
+	border-color: #fff !important;
+}
+
+/** Conteúdo >> Correção - Preço Cardápio Home **/
+#post-10 .menu-home .uagb-rm__price-wrap {
+	width: 80px !important;
+	box-sizing: border-box !important;
+}
+
+/** Conteúdo >> Post 10 uagb rm price wrap **/
+.menu-home #post-10 .uagb-rm__price-wrap {
+	width: 80px !important;
+	box-sizing: border-box !important;
+}
+
+/** Conteúdo >> Correção - Removendo pizza Home em dispositivos móveis **/
+#post-10 .image-pizza-home .lazyautosizes {
+	
+}
+
+
+/*( < 1200 )*/
+@media (max-width: 1199.98px) {
+
+	/*= Geral ===================== */
+
+	/** Geral >> Uagb block 04edde1c uagb column inner wrap _2 **/
+	.uagb-block-04edde1c .uagb-column__inner-wrap {
+	
+}
+
+
+}
+
 
 /*( < 980 )*/
 @media (max-width: 979.98px) {
@@ -84,6 +139,14 @@
 
 	/** Geral >> Uagb block 04edde1c uagb column inner wrap _2 **/
 	.uagb-block-04edde1c .uagb-column__inner-wrap {
+	display: none !important;
+}
+
+
+	/*= Conteúdo ================= */
+
+	/** Conteúdo >> Correção - Removendo pizza Home em dispositivos móveis **/
+	#post-10 .image-pizza-home .lazyautosizes {
 	display: none !important;
 }
 
