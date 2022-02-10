@@ -86,6 +86,17 @@
 	width: 50px !important;
 }
 
+/** Geral >> Correção - Adicionando bordas ao formulário **/
+#wpforms-form-283 .wpforms-field-large {
+	filter: drop-shadow(123px) !important;
+	border: 1px solid #F06919 !important;
+}
+
+/** Geral >> Untitled **/
+#post-18 .uagb-ifb-title-prefix {
+	filter: drop-shadow(123px) !important;
+}
+
 
 /*= Conteúdo ================= */
 
@@ -151,10 +162,7 @@
 	/*= Conteúdo ================= */
 
 	/** Conteúdo >> Correção - Removendo pizza Home em dispositivos móveis **/
-	#post-10 .image-pizza-home .lazyautosizes img {
-	
-}
-#post-10 .image-pizza-home .lazyautosizes {
+	#post-10 .image-pizza-home .lazyautosizes {
 	display: none !important;
 }
 
@@ -166,6 +174,20 @@
 	/** Conteúdo >> Correção - Remover fotos dos pratos home dos diposotivos móveis **/
 	.photo-food-home .uagb-rm__image img {
 	display: none !important;
+}
+
+
+}
+
+
+/*( < 768 )*/
+@media (max-width: 767.98px) {
+
+	/*= Geral ===================== */
+
+	/** Geral >> Untitled **/
+	#post-18 .uagb-ifb-title-prefix {
+	
 }
 
 
